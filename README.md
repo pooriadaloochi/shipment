@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Ship Load Order Registration - Project Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the GitHub repository for the **Ship Load Order Registration** project. This project is aimed at managing and optimizing ship load orders efficiently using modern web technologies and best practices. Below, you'll find the details on how to use, develop, and contribute to this project.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The **Ship Load Order Registration** application provides a robust interface for managing ship load orders, allowing easy tracking, editing, and updating of shipping-related data. The application is built using **React.js** with **Ant Design** as the UI framework, offering a clean and user-friendly interface.
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Order Management**: Add, edit, delete, and view ship load orders.
+- **Persian Calendar Integration**: Utilizes **Ant Design Jalali** for Jalali date management, making it suitable for Iranian users.
+- **State Management**: Uses **Redux** and **Redux Thunk** for efficient state management.
+- **Responsive Design**: The UI is responsive, ensuring optimal use on various devices, from desktops to mobile.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `yarn test`
+- **Frontend**:
+  - [React.js](https://reactjs.org/): JavaScript library for building user interfaces.
+  - [Ant Design](https://ant.design/): UI framework used to create a sleek and responsive interface.
+  - **Ant Design Jalali**: For Jalali date management, enhancing usability for Persian-speaking users.
+  - **Redux & Redux Thunk**: For state management, enabling predictable and scalable state changes.
+  - **Craco**: Create React App Configuration Override to add custom configurations without ejecting.
+  - **Axios**: To handle HTTP requests for backend communication.
+  - **Day.js** and **Moment.js**: For date manipulation and formatting.
+  - **Lodash**: JavaScript utility library for performance optimization.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Styling**:
+  - **Less** & **Sass**: Preprocessors used for more organized and maintainable CSS.
+  - **rc-color-picker**: For providing interactive color selection within the app.
 
-### `yarn build`
+- **Testing**:
+  - **React Testing Library**: For unit and integration tests.
+  - **Jest**: Testing framework used to ensure code quality and reliability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy of the project up and running, follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `yarn eject`
+- **Node.js** (v14 or above) and **npm** or **yarn** should be installed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pooriadaloochi/ship-load-order-registration.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd ship-load-order-registration
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Running the Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the development server:
+```bash
+npm start
+# or
+yarn start
+```
+The application should be available at `http://localhost:3000`.
 
-## Learn More
+### Building for Production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To create an optimized production build:
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Folder Structure
 
-### Code Splitting
+- **/src/components**: Reusable UI components used throughout the application.
+- **/src/pages**: Pages that define different routes within the application.
+- **/src/store**: Redux store configuration and slices for state management.
+- **/public**: Static assets like images and icons.
+- **/styles**: Less and Sass files for styling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! If you have any suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Scripts
 
-### Making a Progressive Web App
+- **Start**: Runs the application in development mode.
+  ```bash
+  npm start
+  # or
+  yarn start
+  ```
+- **Build**: Creates an optimized production build.
+  ```bash
+  npm run build
+  # or
+  yarn build
+  ```
+- **Test**: Runs tests using Jest.
+  ```bash
+  npm run test
+  # or
+  yarn test
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+If you have any questions or need further information, feel free to reach out:
+- **LinkedIn**: [linkedin.com/in/pooriadaloochi](https://linkedin.com/in/pooriadaloochi)
+- **Email**: pooriadaloochi@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is open source and available under the [MIT License](./LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out the Ship Load Order Registration project! Your feedback and contributions are highly appreciated.
